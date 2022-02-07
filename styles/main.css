@@ -1,0 +1,18 @@
+::root {
+    --main-color: #D6000D;
+    --txt-color: #000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--txt-color);
+}
