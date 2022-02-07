@@ -130,7 +130,8 @@ body {
 .introduction {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: .8rem;
+    line-height: 1.6;
 }
 
 .primary-header {
@@ -138,7 +139,8 @@ body {
     font-size: 6.2rem;
     font-weight: 700;
     letter-spacing: -.1rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 4.5rem;
+    line-height: 1.05;
 }
 
 .hero-btn:link,
@@ -163,7 +165,7 @@ body {
 /**************************/
 
 .section--our-services {
-    padding: 9.6rem 0;
+    padding: 9.6rem 0 0;
 }
 
 .services {
@@ -197,6 +199,7 @@ body {
     gap: 1rem;
     align-items: center;
     font-size: 2rem;
+    line-height: 1.2;
 }
 
 .services--img-box {
@@ -206,4 +209,48 @@ body {
 .services-img {
     height: auto;
     width: 80%;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+
+.section--cta {}
+
+.cta {
+    max-width: 130rem;
+    padding: 0 12rem;
+    margin: 0 auto;
+}
+
+.secondary-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.cta-form {
+    display: flex;
+    gap: 1rem;
+}
+
+.cta-input {
+    background-color: #ddd;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.cta-input::placeholder {
+    font-weight: 500;
+}
+
+.cta-btn {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    padding: 1.5rem 3.5rem;
 }
