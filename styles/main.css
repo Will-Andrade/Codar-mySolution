@@ -48,7 +48,8 @@ body {
     padding: 1.6rem 3.2rem;
 }
 
-.logo {
+.logo, 
+.footer-logo {
     text-decoration: none;
     color: var(--main-color);
     font-style: italic;
@@ -329,4 +330,66 @@ body {
 .footer {
     background-color: var(--txt-color);
     color: #FFF;
+}
+
+.footer-grid {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 4.8rem 6.4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8rem;
+    align-items: baseline;
+}
+
+.footer-logo {
+    color: inherit;
+    display: inline-block;
+    margin-bottom: 2.4rem;
+}
+
+.footer-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer-text {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+.margin-ovw {
+    margin-bottom: .9rem !important;
+}
+
+.padding-ovw {
+    padding-right: 2.8rem !important;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contacts a:not(a:last-child) {
+    text-decoration: none;
+}
+
+.footer-link {
+    color: inherit;
+}
+
+.social-links {
+    color: var(--main-color);
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+.social-icon {
+    width: 3rem;
+    height: 3rem;
 }
